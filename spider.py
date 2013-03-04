@@ -10,9 +10,9 @@ import re
 url = 'http://www.baidu.com';
 def getData(url):
     delimiter = '/' # should i use const ?
-    fileName = time.strftime( '%Y-%m-%d_%H:%I:%S',time.localtime( time.time() ) ) + '.html'
+    fileName = time.strftime( '%Y-%m-%d_%H:%I:%S',time.localtime( time.time() ) ) + '.md'
     filePath = os.getcwd() + delimiter + fileName
-    dirPath = os.getcwd() + delimiter + 'html'
+    dirPath = os.getcwd() + delimiter + 'data'
     
     data = urllib.urlopen(url).read()
     
