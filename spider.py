@@ -2,6 +2,7 @@
 # Filename: Spider.py
 # -*- coding: UTF-8 -*-
 # author: David Ding
+
 import urllib
 import time 
 import os
