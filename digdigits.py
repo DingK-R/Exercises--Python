@@ -1,6 +1,16 @@
 #!/usr/bin/env python3
 import sys
 
+"""
+love@LOVE:~/python3$ ./digdigits.py 12345
+ *     ***    *******      *    *******
+ **    *   *         *     *     *
+ *   *     *        *    *  *   *
+ *        *   *******   *   *   *******
+ *       *          *  *******        *
+ *     *            *       *         *
+***  *******  *******       *   *******
+"""
 class BigDigits():
 
     def run(self):
