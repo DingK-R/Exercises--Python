@@ -1,6 +1,16 @@
 #!/usr/bin/env python3
 import random
 
+"""
+love@LOVE:~/python3$ ./generate_gird.py
+rows:3
+columns:2
+minimum(or Enter for 0):-100
+maximum (or Enter for 1000):
+       536       775
+       714       992
+       783        35
+"""
 
 def get_int(msg, minimum, default):
 
